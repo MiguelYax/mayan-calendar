@@ -27,16 +27,18 @@ export const dayNames = [
 export const parseDate = (date) => {
     const year = date.getFullYear();
     const month = date.getMonth();
+    const day = date.getDay();
     const days = new Date(year, month, 0).getDate();
 
     return {
         year,
         month,
+        day,
         days
     }
 }
 
-export const getMonthCalendar = ({ year, month, days }) => {
+export const getMonthCalendar = ({ year, month, day, days }) => {
     const calendar = {
         year,
         month,
@@ -58,11 +60,11 @@ export const getMonthCalendar = ({ year, month, days }) => {
         }
 
         calendar.weeks[week].push({
-            weekDay,
-            dayName: dayNames[weekDay],
+            weekDay,            
             day: i,
             nahual: nahual.nahual,
             nahualDay: nahual.day,
+            today: i === day,
         })
 
         if (weekDay === 6) {

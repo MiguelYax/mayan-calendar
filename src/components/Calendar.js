@@ -1,16 +1,19 @@
+import './Calendar.scss'
 import { parseDate, getMonthCalendar, dayNames } from '../utils'
+import Nahual from './Nahual'
 
 
 function Calendar({ date }) {
     const {
         monthName,
-        weeks
+        year,
+        weeks,
     } = getMonthCalendar(parseDate(date));
 
 
     return (
         <table>
-           <caption>{monthName}</caption>
+            <caption>{monthName} - {year}</caption>
             <thead>
                 <tr>
                     {
@@ -23,9 +26,10 @@ function Calendar({ date }) {
                     Object.entries(weeks).map(([key, week]) => {
                         return (
                             <tr key={`week-${key}`}> {
-                                week.map(({ day, nahual }) =>
+                                week.map(({ day, nahual, nahualDay }) =>
                                     <td>
-                                        <p> {nahual} </p>
+                                        <span>{day} </span>
+                                        <Nahual nahual={nahual} nahualDay={nahualDay} />
                                     </td>
                                 )}
                             </tr>
