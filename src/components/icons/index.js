@@ -1,3 +1,4 @@
+export { default as Svg0 } from './0'
 export { default as Svg1 } from './1'
 export { default as Svg10 } from './10'
 export { default as Svg11 } from './11'

@@ -24,6 +24,16 @@ export const dayNames = [
     'Saturday'
 ];
 
+export const shortDayNames = [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+];
+
 export const parseDate = (date) => {
     const year = date.getFullYear();
     const month = date.getMonth();
@@ -60,16 +70,24 @@ export const getMonthCalendar = ({ year, month, day, days }) => {
         }
 
         calendar.weeks[week].push({
-            weekDay,            
+            weekDay,
             day: i,
             nahual: nahual.nahual,
             nahualDay: nahual.day,
-            today: i === day,
+            isToday: i === day,
         })
 
         if (weekDay === 6) {
             week++;
         }
+
+        if (i === days) {
+            const currentLength = calendar.weeks[week].length;
+            for (let j = 0; j < (7 - currentLength); j++) {
+                calendar.weeks[week].push({});
+            }
+        }
+
     }
 
     return calendar;

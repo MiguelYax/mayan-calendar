@@ -16,13 +16,20 @@ const days = {
     13: <Svg13 />,
 }
 
-function Nahual({ nahual, nahualDay }) {
+function Nahual({ day, nahual, nahualDay }) {
 
     return (
-        <>
-            {days[nahualDay]}
-            <p> {nahual} </p>
-        </>
+        <div className="day-container" >
+            <div className='day'>
+                {day}
+            </div>
+            <div className='nahual-day'>
+                {days[nahualDay]}
+            </div>
+            <div className='nahual'>
+                {nahual}
+            </div>
+        </div>
 
     )
 }
