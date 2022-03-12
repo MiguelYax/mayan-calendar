@@ -1,8 +1,6 @@
 import './Calendar.scss'
-import { parseDate, getMonthCalendar, dayNames, shortDayNames } from '../utils'
+import { parseDate, getMonthCalendar, dayNames } from '../utils'
 import Nahual from './Nahual'
-import classNames from 'classnames';
-
 
 function Calendar({ date }) {
     const {
