@@ -1,11 +1,12 @@
 import './App.css';
-import Calendar from './components/Calendar'
+//import Calendar from './components/Calendar'
+import Clock from './components/Clock'
 function App() {
 
   const date = new Date();
 
   return (
-    <Calendar date={date} />
+    <Clock date={date} />
   );
 }
 
