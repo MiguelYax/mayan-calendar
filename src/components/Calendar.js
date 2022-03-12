@@ -1,6 +1,7 @@
-import './Calendar.scss'
 import { parseDate, getMonthCalendar, dayNames } from '../utils'
+import { Table } from 'react-bootstrap'
 import Nahual from './Nahual'
+import * as days from './Days';
 
 function Calendar({ date }) {
     const {
@@ -19,7 +20,7 @@ function Calendar({ date }) {
                     <a className="" href="#"></a>
 
                 </header>
-                <table>
+                <Table>
                     <thead>
                         <tr>
                             {
@@ -42,11 +43,10 @@ function Calendar({ date }) {
                             })
                         }
                     </tbody>
-                </table>
+                </Table>
             </div>
         </div>
     )
-
 }
 
 export default Calendar;
