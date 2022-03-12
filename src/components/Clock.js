@@ -1,27 +1,32 @@
 import { useEffect, useState } from 'react';
 import { Svg0, Svg1, Svg2, Svg3, Svg4, Svg5, Svg6, Svg7, Svg8, Svg9, Svg10, Svg11, Svg12, Svg13, Svg14, Svg15, Svg16, Svg17, Svg18, Svg19 } from './icons';
-import './Clock.scss'
+import { Card, CardGroup } from 'react-bootstrap'
+
+const size = {
+    width: '10em',
+    height: '10em'
+}
 const days = {
-    0: <Svg0 />,
-    1: <Svg1 />,
-    2: <Svg2 />,
-    3: <Svg3 />,
-    4: <Svg4 />,
-    5: <Svg5 />,
-    6: <Svg6 />,
-    7: <Svg7 />,
-    8: <Svg8 />,
-    9: <Svg9 />,
-    10: <Svg10 />,
-    11: <Svg11 />,
-    12: <Svg12 />,
-    13: <Svg13 />,
-    14: <Svg14 />,
-    15: <Svg15 />,
-    16: <Svg16 />,
-    17: <Svg17 />,
-    18: <Svg18 />,
-    19: <Svg19 />,
+    0: <Svg0 {...size} />,
+    1: <Svg1 {...size} />,
+    2: <Svg2 {...size} />,
+    3: <Svg3 {...size} />,
+    4: <Svg4 {...size} />,
+    5: <Svg5 {...size} />,
+    6: <Svg6 {...size} />,
+    7: <Svg7 {...size} />,
+    8: <Svg8 {...size} />,
+    9: <Svg9 {...size} />,
+    10: <Svg10 {...size} />,
+    11: <Svg11 {...size} />,
+    12: <Svg12 {...size} />,
+    13: <Svg13 {...size} />,
+    14: <Svg14 {...size} />,
+    15: <Svg15 {...size} />,
+    16: <Svg16 {...size} />,
+    17: <Svg17 {...size} />,
+    18: <Svg18 {...size} />,
+    19: <Svg19 {...size} />,
 }
 
 export const getNumbers = () => {
@@ -50,11 +55,11 @@ const numbers = getNumbers();
 
 
 const mayanNumbers = Object.entries(numbers)
-    .map(([key, value]) =>
-        <div className='' >
-            <p className="clock-item" > {days[value['a']]} </p>
-            <p className="clock-item">{days[value['b']]} </p>
-        </div>
+    .map(([, value], i) =>
+        <Card style={{ width: "18rem" }}>
+            <Card.Body>{days[value['a']]}</Card.Body>
+            <Card.Footer>{days[value['b']]}</Card.Footer>
+        </Card>
     )
 
 const showTime = (setTime) => {
@@ -75,29 +80,12 @@ function Clock() {
         setInterval(() => showTime(setTime), 1000);
     }, []);
 
-
     return (
-        <div className="grid-container">
-            <div className="grid-item">
-
-                {mayanNumbers[time.h]}
-            </div>
-            <div className="grid-item">
-                {mayanNumbers[time.m]}
-            </div>
-            <div className="grid-item">
-                {mayanNumbers[time.s]}
-            </div>
-            <div className="grid-item">
-                {time.h}
-            </div>
-            <div className="grid-item">
-                {time.m}
-            </div>
-            <div className="grid-item">
-                {time.s}
-            </div>
-        </div >
+        <CardGroup>
+            {mayanNumbers[time.h]}
+            {mayanNumbers[time.m]}
+            {mayanNumbers[time.s]}
+        </CardGroup>
     )
 
 }
