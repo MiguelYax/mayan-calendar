@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <rect x="25" y="25" width="150" height="110" fill="none" stroke-width="10" stroke="black" rx="15" ry="15" />
+    <rect x="35" y="35" width="130" height="90" fill="none" stroke-width="5" stroke="black" rx="15" ry="15" />
+    <!-- <path d="M80 155 Q100 200, 120 155" stroke="black" stroke-width="10" fill="none" /> -->
+    <path d="M80 140 C80 190, 120 190, 120 140" stroke="black" stroke-width="10" fill="none" />
+    <path d="M90 140 C90 175, 110 175, 110 140" stroke="black" stroke-width="5" fill="none" />
+
+    <path d="M40 135 C20 190, 80 190, 80 135" stroke="black" stroke-width="10" fill="none" />
+    <path d="M50 135 C30 175, 70 175, 70 135" stroke="black" stroke-width="5" fill="none" />
+
+    <path d="M120 135 C120 190, 180 190, 160 135" stroke="black" stroke-width="10" fill="none" />
+    <path d="M130 135 C130 175, 170 175, 150 135" stroke="black" stroke-width="5" fill="none" />
+
+    <circle r="15" cx="147" cy="52" fill="none" stroke-width="10" stroke="black" />
+    <circle r="5" cx="118" cy="48" fill="none" stroke-width="5" stroke="black" />
+    <circle r="5" cx="122" cy="65" fill="none" stroke-width="5" stroke="black" />
+    <circle r="5" cx="135" cy="78" fill="none" stroke-width="5" stroke="black" />
+    <circle r="5" cx="152" cy="80" fill="none" stroke-width="5" stroke="black" />
+
+     <!-- <path d="M50 50 C40 60, 40 75, 55 60" stroke="black" stroke-width="5" fill="none" /> -->
+
+
+
+</svg>
