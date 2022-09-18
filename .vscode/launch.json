@@ -12,6 +12,13 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\src\\utils\\index.js"
+        },
+        {
+            "name": "Debug app",
+            "type": "firefox",
+            "request": "attach",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }

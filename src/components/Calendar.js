@@ -4,11 +4,15 @@ import Nahual from './Nahual'
 import * as days from './Days';
 
 function Calendar({ date }) {
+    const dateConfig = parseDate(date);
+    console.log(dateConfig)
     const {
         monthName,
         year,
         weeks,
-    } = getMonthCalendar(parseDate(date));
+    } = getMonthCalendar(dateConfig);
+
+    console.log(weeks)
 
 
     return (
@@ -34,7 +38,7 @@ function Calendar({ date }) {
                                 return (
                                     <tr key={`week-${key}`}> {
                                         week.map(({ day, nahual, nahualDay, isToday }) =>
-                                            <td> 
+                                            <td>
                                                 <Nahual day={day} nahual={nahual} nahualDay={nahualDay} />
                                             </td>
                                         )}

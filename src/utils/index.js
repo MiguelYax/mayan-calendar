@@ -37,8 +37,8 @@ export const shortDayNames = [
 export const parseDate = (date) => {
     const year = date.getFullYear();
     const month = date.getMonth();
-    const day = date.getDay();
-    const days = new Date(year, month, 0).getDate();
+    const day = date.getDate();
+    const days = new Date(year, month + 1, 0).getDate();
 
     return {
         year,
@@ -81,7 +81,8 @@ export const getMonthCalendar = ({ year, month, day, days }) => {
             week++;
         }
 
-        if (i === days) {
+        if (i === days && week < calendar.weeks.length) {
+            console.log(week)
             const currentLength = calendar.weeks[week].length;
             for (let j = 0; j < (7 - currentLength); j++) {
                 calendar.weeks[week].push({});
