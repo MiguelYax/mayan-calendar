@@ -1,6 +1,10 @@
-import { Svg0, Svg1, Svg2, Svg3, Svg4, Svg5, Svg6, Svg7, Svg8, Svg9, Svg10, Svg11, Svg12, Svg13, Svg14, Svg15, Svg16, Svg17, Svg18, Svg19 } from './icons';
+import {
+  Svg0, Svg1, Svg2, Svg3, Svg4, Svg5, Svg6, Svg7, Svg8, Svg9, Svg10, Svg11, Svg12, Svg13, Svg14, Svg15, Svg16, Svg17, Svg18, Svg19,
+  Aj, Ajmaq, Ajpu, Aqabal, Batz, E, Imox, Iq, Ix, Kame, Kan, Kat, Kawoq, Kej, Noj, Qanil, Tijax, Toj, Tzi, Tzikin
 
-export default (width, height) => {
+} from './icons';
+
+export const dayIcons = (width, height) => {
   const size = {
     width,
     height
@@ -29,3 +33,33 @@ export default (width, height) => {
     19: <Svg19 {...size} />,
   }
 };
+
+export const nahualIcons = (width, height) => {
+  const size = {
+    width,
+    height
+  }
+
+  return {
+    Aj: <Aj {...size} />,
+    Ajmaq: <Ajmaq {...size} />,
+    Ajpu: <Ajpu {...size} />,
+    Aqabal: <Aqabal {...size} />,
+    Batz: <Batz {...size} />,
+    E: <E {...size} />,
+    Imox: <Imox {...size} />,
+    Iq: <Iq {...size} />,
+    Ix: <Ix {...size} />,
+    Kame: <Kame {...size} />,
+    Kan: <Kan {...size} />,
+    Kat: <Kat {...size} />,
+    Kawok: <Kawoq {...size} />,
+    Kej: <Kej {...size} />,
+    Noj: <Noj {...size} />,
+    Qanil: <Qanil {...size} />,
+    Tijax: <Tijax {...size} />,
+    Toj: <Toj {...size} />,
+    Tzi: <Tzi {...size} />,
+    Tzikin: <Tzikin {...size} />,
+  }
+}

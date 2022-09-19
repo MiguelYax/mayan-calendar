@@ -1,6 +1,7 @@
-import dayFactory from './Days';
+import { dayIcons, nahualIcons } from './Days';
 
-const days = dayFactory('3em', '3em');
+const days = dayIcons('3em', '3em');
+const nahuals = nahualIcons('3em', '3em')
 
 function Nahual({ day, nahual, nahualDay }) {
 
@@ -12,8 +13,8 @@ function Nahual({ day, nahual, nahualDay }) {
             <div className='nahual-day'>
                 {days[nahualDay]}
             </div>
-            <div className='nahual'>
-                {nahual}
+            <div data={nahual} className='nahual'>
+                {nahual && nahuals[nahual.replace(/'/g, '')]}
             </div>
         </div>
 
