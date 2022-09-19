@@ -11,4 +11,22 @@
     <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 10px;" d="M 74.979 136.234 L 75.05616666666667 143.62466666666668 C 75.13333333333333 151.01533333333336 75.28766666666667 165.79666666666665 84.0255 173.18733333333333 C 92.76333333333332 180.578 110.08466666666668 180.578 118.74533333333333 172.98166666666665 C 127.406 165.38533333333334 127.406 150.19266666666667 127.40599999999999 142.59633333333332 L 127.406 135" bx:d="M 74.979 136.234 U 75.442 180.578 U 127.406 180.578 U 127.406 135 1@2d849bff"/>
     <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 6px;" d="M 85.136 137.692 L 85.18283333333333 143.03833333333333 C 85.22966666666666 148.38466666666667 85.32333333333334 159.07733333333334 90.63933333333334 164.42366666666666 C 95.95533333333333 169.77 106.49366666666667 169.77 111.76283333333333 164.27483333333333 C 117.032 158.77966666666669 117.032 147.78933333333336 117.032 142.29416666666665 L 117.032 136.799" bx:d="M 85.136 137.692 U 85.417 169.77 U 117.032 169.77 U 117.032 136.799 1@85cdca78"/>
   </g>
+  <rect x="80.492" y="38.988" width="40.246" height="14.99" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" rx="7.495" ry="7.495"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 97.417 53.978 C 92.215 53.978 94.759 38.988 102.755 38.988"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 104.469 53.978 C 99.267 53.978 101.811 38.988 109.807 38.988"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 3px;" x1="59.237" y1="122.863" x2="67.968" y2="104.597"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 3px;" x1="64.711" y1="122.863" x2="73.442" y2="104.597"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 3px;" x1="85.893" y1="122.863" x2="94.624" y2="104.597"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 3px;" x1="90.893" y1="122.863" x2="99.624" y2="104.597"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 3px;" x1="106.216" y1="121.946" x2="114.947" y2="103.68"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 3px;" x1="110.748" y1="122.161" x2="119.479" y2="103.895"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 3px;" x1="131.748" y1="122.161" x2="140.479" y2="103.895"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 3px;" x1="136.533" y1="122.376" x2="145.264" y2="104.11"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" cx="70.277" cy="44.414" rx="4" ry="3.756"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" cx="72.968" cy="56.922" rx="4" ry="3.756"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" cx="85.968" cy="63.922" rx="4" ry="3.756"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" cx="100.968" cy="65.922" rx="4" ry="3.756"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" cx="115.968" cy="63.922" rx="4" ry="3.756"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" cx="127.968" cy="55.922" rx="4" ry="3.756"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" cx="131.968" cy="43.922" rx="4" ry="3.756"/>
 </svg>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs>
-    <bx:grid x="0" y="0" width="20.123" height="20.329"/>
+    <bx:grid x="0" y="0" width="19.918" height="19.507"/>
   </defs>
-  <g>
+  <rect x="74.631" y="35" width="9.435" height="23.028" fill="none" stroke="black" style="stroke-width: 4px;" rx="4.718" ry="4.718"/>
+  <rect x="116.379" y="35" width="9.435" height="23.028" fill="none" stroke="black" rx="4.718" ry="4.718" style="stroke-width: 4px;"/>
+  <rect x="74.631" y="90.062" width="9.435" height="34.938" fill="none" stroke="black" style="stroke-width: 4px;"/>
+  <rect x="116.379" y="90.062" width="9.435" height="34.938" fill="none" stroke="black" style="stroke-width: 4px;"/>
+  <rect x="35" y="89.857" width="129.082" height="0.205" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 5px;"/>
+  <g transform="matrix(1, 0, 0, 1, 0.070274, -0.207733)">
     <rect x="25" y="25" width="151.112" height="110" fill="none" stroke-width="10" stroke="black" rx="25.062" ry="25.062" style=""/>
     <rect x="35" y="35" width="131.872" height="90" fill="none" stroke-width="5" stroke="black" rx="15" ry="15" style=""/>
     <path style="stroke: rgb(0, 0, 0); fill: none; stroke-linecap: round; stroke-width: 10px;" d="M 51.624 162.632 L 52.01166666666666 159.6235 C 52.39933333333334 156.615 53.17466666666667 150.59799999999998 48.6685 147.2098333333333 C 44.16233333333333 143.82166666666666 34.37466666666666 143.06233333333333 29.412333333333333 148.02466666666666 C 24.45 152.987 24.313 163.671 26.381833333333333 169.96816666666666 C 28.450666666666667 176.26533333333336 32.72533333333333 178.17566666666667 41.372499999999995 178.61750000000004 C 50.019666666666666 179.05933333333334 63.03933333333333 178.03266666666664 69.3095 170.51833333333335 C 75.57966666666665 163.004 75.10033333333332 149.00199999999998 74.86066666666666 142.001 L 74.621 135" bx:d="M 51.624 162.632 U 53.95 144.581 U 24.587 142.303 U 24.176 174.355 U 37 180.086 U 76.059 177.006 U 74.621 135 1@bf31954c"/>
