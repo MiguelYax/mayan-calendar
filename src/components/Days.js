@@ -1,6 +1,6 @@
 import {
   Svg0, Svg1, Svg2, Svg3, Svg4, Svg5, Svg6, Svg7, Svg8, Svg9, Svg10, Svg11, Svg12, Svg13, Svg14, Svg15, Svg16, Svg17, Svg18, Svg19,
-  Aj, Ajmaq, Ajpu, Aqabal, Batz, E, Imox, Iq, Ix, Kame, Kan, Kat, Kawoq, Kej, Noj, Qanil, Tijax, Toj, Tzi, Tzikin
+  Aj, Ajmak, Ajpu, Aqabal, Batz, E, Imox, Iq, Ix, Kame, Kan, Kat, Kawoq, Kej, Noj, Qanil, Tijax, Toj, Tzi, Tzikin
 
 } from './icons';
 
@@ -45,7 +45,7 @@ export const nahualIcons = (props = {}) => {
 
   return {
     Aj: <Aj {...size} />,
-    Ajmaq: <Ajmaq {...size} />,
+    Ajmak: <Ajmak {...size} />,
     Ajpu: <Ajpu {...size} />,
     Aqabal: <Aqabal {...size} />,
     Batz: <Batz {...size} />,

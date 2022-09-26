@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs>
     <bx:grid x="0" y="0" width="20.123" height="20.329"/>
-    <pattern id="pattern-2-1" patternTransform="matrix(1.7674, 0, 0, 1.65967, 117.550985, 79.293566)" xlink:href="#pattern-2"/>
-    <pattern x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse" viewBox="0 0 100 100" id="pattern-2">
-      <title>cuadro</title>
-      <defs>
-        <bx:grid x="0" y="0" width="20.124" height="20.123"/>
-      </defs>
-      <g transform="matrix(1, 0, 0, 1, 1, -2)">
-        <rect width="9.96" height="100.615" style="stroke: rgb(0, 0, 0);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 45.13406, -31.166527)"/>
-        <rect width="9.96" height="160.436" style="stroke: rgb(0, 0, 0);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 87.341827, -32.839787)"/>
-        <rect width="9.96" height="150.708" style="stroke: rgb(0, 0, 0);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 93.577209, 0.763908)"/>
-        <rect width="9.96" height="129.654" style="stroke: rgb(0, 0, 0);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 116.45887, 18.043171)"/>
-        <rect width="9.96" height="100.615" style="stroke: rgb(0, 0, 0);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 126.228897, 48.866581)"/>
-        <rect width="9.96" height="134.228" style="stroke: rgb(0, 0, 0);" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 128.364761, 87.627258)"/>
-        <rect width="9.96" height="134.228" style="stroke: rgb(0, 0, 0);" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 148.556305, 66.967094)"/>
-        <rect width="9.96" height="134.228" style="stroke: rgb(0, 0, 0);" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 108.694801, 107.86602)"/>
-        <rect width="9.96" height="177.497" style="stroke: rgb(0, 0, 0);" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 108.304665, 147.961624)"/>
-        <rect width="9.96" height="134.228" style="stroke: rgb(0, 0, 0);" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 62.00692, 141.663879)"/>
-      </g>
-    </pattern>
   </defs>
   <g>
     <rect x="25" y="25" width="151.112" height="110" fill="none" stroke-width="10" stroke="black" rx="25.062" ry="25.062" style=""/>
@@ -32,7 +13,7 @@
   </g>
   <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="61.477" cy="43.943" rx="6.366" ry="5.955"/>
   <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="149.022" cy="69.753" rx="6.161" ry="5.955"/>
-  <ellipse style="stroke: rgb(0, 0, 0); fill: url(#pattern-2-1); stroke-width: 4px;" cx="139.645" cy="100.039" rx="21.339" ry="19.331"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 6px;" cx="139.644" cy="100.039" rx="20" ry="20"/>
   <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="107.199" cy="109.6" rx="6.161" ry="5.955"/>
   <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="107.199" cy="86.663" rx="6.161" ry="5.955"/>
   <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="124.466" cy="71.753" rx="6.161" ry="5.955"/>
@@ -40,5 +21,11 @@
   <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="90.885" cy="44.082" rx="6.366" ry="5.955"/>
   <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="68.663" cy="56.6" rx="6.366" ry="5.955"/>
   <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="83.858" cy="56.6" rx="6.366" ry="5.955"/>
-  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" cx="76.799" cy="68.136" rx="6.366" ry="5.955"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px; paint-order: fill;" cx="76.799" cy="68.136" rx="6.366" ry="5.955"/>
+  <rect x="-66.768" y="15.234" width="41.012" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" height="0.338" transform="matrix(0.707107, 0.707106, -0.707106, 0.707107, 182.651428, 122.012833)"/>
+  <rect x="65.014" y="-7.808" width="39.935" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" height="0.173" transform="matrix(-0.707106, 0.707107, -0.707107, -0.707106, 194.240967, 34.202484)"/>
+  <rect x="-52.179" y="20.005" width="32.051" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" height="0.444" transform="matrix(0.707107, 0.707106, 0.707106, -0.707107, 142.864607, 146.231446)"/>
+  <rect x="52.179" y="-20.005" width="32.051" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" height="0.444" transform="matrix(0.707107, 0.707106, 0.707106, -0.707107, 112.916078, 31.588191)"/>
+  <rect x="52.179" y="-20.005" width="32.051" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" height="0.444" transform="matrix(-0.707106, 0.707107, 0.707107, 0.707106, 208.750607, 72.169885)"/>
+  <rect x="52.179" y="-20.005" width="32.051" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" height="0.444" transform="matrix(-0.707106, 0.707107, 0.707107, 0.707106, 195.205167, 59.431261)"/>
 </svg>

@@ -68,9 +68,9 @@ const SvgAjpu = (props) => (
     <path
       style={{
         stroke: "currentColor",
-        strokeWidth: 4,
         strokeLinecap: "round",
         fill: "none",
+        strokeWidth: 5,
       }}
       d="M80.492 81.151c19.59-4.268 20.443-28.734 20.123-44.575.32 15.841-.533 40.307 19.385 44.74"
     />
@@ -82,7 +82,7 @@ const SvgAjpu = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 4,
+        strokeWidth: 5,
       }}
       rx={11.648}
       ry={11.648}
@@ -90,29 +90,38 @@ const SvgAjpu = (props) => (
     <ellipse
       style={{
         stroke: "currentColor",
+        paintOrder: "stroke",
+        fill: "none",
+        strokeWidth: 11,
       }}
-      cx={100.268}
-      cy={102.273}
-      rx={9.517}
-      ry={8.807}
+      cx={101.71}
+      cy={103.1}
+      rx={5.201}
+      ry={5.526}
     />
     <ellipse
       style={{
         stroke: "currentColor",
+        paintOrder: "stroke",
+        fill: "none",
+        strokeWidth: 9,
       }}
-      cx={59.793}
-      cy={58.351}
-      rx={5.611}
-      ry={5.635}
+      cx={65.074}
+      cy={62.013}
+      rx={4.705}
+      ry={4.191}
     />
     <ellipse
       style={{
         stroke: "currentColor",
+        paintOrder: "stroke",
+        fill: "none",
+        strokeWidth: 9,
       }}
-      cx={142.472}
-      cy={57.352}
-      rx={5.611}
-      ry={5.635}
+      cx={139.014}
+      cy={62.013}
+      rx={4.705}
+      ry={4.191}
     />
   </svg>
 );

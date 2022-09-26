@@ -4,98 +4,10 @@ const SvgKawoq = (props) => (
   <svg
     viewBox="0 0 200 200"
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
     width="1em"
     height="1em"
     {...props}
   >
-    <defs>
-      <pattern
-        id="kawoq_svg__b"
-        patternTransform="matrix(1.7674 0 0 1.65967 117.551 79.294)"
-        xlinkHref="#kawoq_svg__a"
-      />
-      <pattern
-        x={0}
-        y={0}
-        width={25}
-        height={25}
-        patternUnits="userSpaceOnUse"
-        viewBox="0 0 100 100"
-        id="kawoq_svg__a"
-      >
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 63.103 39.105)"
-          d="M0 0h9.96v100.615H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 86.226 89.218)"
-          d="M0 0h9.96v160.436H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 48.78 113.547)"
-          d="M0 0h9.96v150.708H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 39.364 149.807)"
-          d="M0 0h9.96v129.654H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 7.041 177.012)"
-          d="M0 0h9.96v100.615H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 46.948 69.606)"
-          d="M0 0h9.96v134.228H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 61.323 63.458)"
-          d="M0 0h9.96v134.228H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 32.922 75.652)"
-          d="M0 0h9.96v134.228H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 24.423 95.619)"
-          d="M0 0h9.96v177.497H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 2.578 82.881)"
-          d="M0 0h9.96v134.228H0z"
-        />
-      </pattern>
-    </defs>
     <rect
       x={25}
       y={25}
@@ -175,16 +87,15 @@ const SvgKawoq = (props) => (
       rx={6.161}
       ry={5.955}
     />
-    <ellipse
+    <circle
       style={{
         stroke: "currentColor",
-        fill: "url(#kawoq_svg__b)",
-        strokeWidth: 4,
+        fill: "none",
+        strokeWidth: 6,
       }}
-      cx={139.645}
+      cx={139.644}
       cy={100.039}
-      rx={21.339}
-      ry={19.331}
+      r={20}
     />
     <ellipse
       style={{
@@ -268,11 +179,66 @@ const SvgKawoq = (props) => (
         stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
+        paintOrder: "fill",
       }}
       cx={76.799}
       cy={68.136}
       rx={6.366}
       ry={5.955}
+    />
+    <path
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 4,
+      }}
+      transform="rotate(45 -55.957 281.486)"
+      d="M-66.768 15.234h41.012v.338h-41.012z"
+    />
+    <path
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 4,
+      }}
+      transform="rotate(135 90.037 57.33)"
+      d="M65.014-7.808h39.935v.173H65.014z"
+    />
+    <path
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 4,
+      }}
+      transform="scale(1 -1) rotate(-45 -105.085 -245.569)"
+      d="M-52.179 20.005h32.051v.444h-32.051z"
+    />
+    <path
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 4,
+      }}
+      transform="scale(1 -1) rotate(-45 18.328 -152.096)"
+      d="M52.179-20.005H84.23v.444H52.179z"
+    />
+    <path
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 4,
+      }}
+      transform="scale(-1 1) rotate(45 -191.492 -215.9)"
+      d="M52.179-20.005H84.23v.444H52.179z"
+    />
+    <path
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 4,
+      }}
+      transform="scale(-1 1) rotate(45 -169.342 -205.918)"
+      d="M52.179-20.005H84.23v.444H52.179z"
     />
   </svg>
 );

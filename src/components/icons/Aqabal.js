@@ -68,9 +68,9 @@ const SvgAqabal = (props) => (
     <path
       style={{
         stroke: "currentColor",
-        strokeWidth: 4,
         strokeLinecap: "round",
         fill: "none",
+        strokeWidth: 5,
       }}
       d="M82.546 84.026c18.069-22.166 18.097-31.609 18.069-47.45.32 15.841.411 25.284 17.865 47.409"
     />
@@ -104,7 +104,7 @@ const SvgAqabal = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 4,
+        strokeWidth: 5,
       }}
       d="M35.729 86.316c-.274-7.461 16.769-12.184 24.64 0 5.75 6.721 14.374 4.868 20.123 0 10.32-13.142 28.138-12.298 40.246 0 4.28 4.347 12.009 7.627 20.123 0 9.817-13.246 23.924-9.544 25.669 0"
     />

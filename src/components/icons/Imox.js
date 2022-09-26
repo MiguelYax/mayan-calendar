@@ -73,7 +73,7 @@ const SvgImox = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       rx={7.495}
       ry={7.495}
@@ -82,7 +82,7 @@ const SvgImox = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 4,
       }}
       d="M97.417 53.978c-5.202 0-2.658-14.99 5.338-14.99m1.714 14.99c-5.202 0-2.658-14.99 5.338-14.99"
     />
@@ -91,15 +91,15 @@ const SvgImox = (props) => (
         fill: "#d8d8d8",
         stroke: "currentColor",
         strokeLinecap: "round",
-        strokeWidth: 3,
+        strokeWidth: 4,
       }}
-      d="m59.237 122.863 8.731-18.266m-3.257 18.266 8.731-18.266m12.451 18.266 8.731-18.266m-3.731 18.266 8.731-18.266m6.592 17.349 8.731-18.266m-4.199 18.481 8.731-18.266m12.269 18.266 8.731-18.266m-3.946 18.481 8.731-18.266"
+      d="m58.237 122.863 8.731-18.266m-2.257 18.266 8.731-18.266m11.451 18.266 8.731-18.266m-2.731 18.266 8.731-18.266m5.592 17.349 8.731-18.266m-3.199 18.481 8.731-18.266m11.269 18.266 8.731-18.266m-2.946 18.481 8.731-18.266"
     />
     <ellipse
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 2,
+        strokeWidth: 3,
       }}
       cx={70.277}
       cy={44.414}
@@ -110,7 +110,7 @@ const SvgImox = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 2,
+        strokeWidth: 3,
       }}
       cx={72.968}
       cy={56.922}
@@ -121,7 +121,7 @@ const SvgImox = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 2,
+        strokeWidth: 3,
       }}
       cx={85.968}
       cy={63.922}
@@ -132,7 +132,7 @@ const SvgImox = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 2,
+        strokeWidth: 3,
       }}
       cx={100.968}
       cy={65.922}
@@ -143,7 +143,7 @@ const SvgImox = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 2,
+        strokeWidth: 3,
       }}
       cx={115.968}
       cy={63.922}
@@ -154,7 +154,7 @@ const SvgImox = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 2,
+        strokeWidth: 3,
       }}
       cx={127.968}
       cy={55.922}
@@ -165,7 +165,7 @@ const SvgImox = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 2,
+        strokeWidth: 3,
       }}
       cx={131.968}
       cy={43.922}

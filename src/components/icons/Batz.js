@@ -18,22 +18,14 @@ const SvgBatz = (props) => (
       rx={5.985}
       ry={5.985}
       style={{
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
     />
     <path
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
-      }}
-      d="M36.756 82.546c22.295-12.696 47.572 30.99 30.595 40.657"
-    />
-    <path
-      style={{
-        stroke: "currentColor",
-        fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       d="M35.749 82.667c17.158-1.222 36.09 27.579 30.595 40.657"
     />
@@ -41,16 +33,16 @@ const SvgBatz = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
-      d="M36.756 82.546c22.295-12.696 47.572 30.99 30.595 40.657"
+      d="M36.756 82.546C74.92 66.1 85.067 117.042 67.351 123.203"
       transform="translate(-1)"
     />
     <path
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       d="M134.834 83.52c17.158-1.222 36.09 27.579 30.595 40.657"
       transform="rotate(-111 150.616 103.83)"
@@ -59,9 +51,9 @@ const SvgBatz = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
-      d="M36.756 82.546c22.295-12.696 47.572 30.99 30.595 40.657"
+      d="M38.266 84.196c12.744-15.404 55.136 14.192 30.595 40.657"
       transform="rotate(-111 101.047 69.923)"
     />
     <g transform="translate(-.988 -.591)">

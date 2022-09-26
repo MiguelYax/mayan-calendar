@@ -73,7 +73,7 @@ const SvgKat = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       rx={7.495}
       ry={7.495}
@@ -82,7 +82,7 @@ const SvgKat = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 4,
       }}
       d="M97.417 53.978c-5.202 0-2.658-14.99 5.338-14.99m1.714 14.99c-5.202 0-2.658-14.99 5.338-14.99"
     />
@@ -94,7 +94,7 @@ const SvgKat = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       rx={10.061}
       ry={10.061}
@@ -107,7 +107,7 @@ const SvgKat = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       rx={10.061}
       ry={10.061}
@@ -115,8 +115,8 @@ const SvgKat = (props) => (
     <path
       style={{
         stroke: "currentColor",
-        strokeWidth: 3,
         fill: "none",
+        strokeWidth: 5,
       }}
       d="M83.656 88.109c-.879 6.867 34.07 8.11 35.082.207"
     />

@@ -4,103 +4,10 @@ const SvgNoj = (props) => (
   <svg
     viewBox="0 0 200 200"
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
     width="1em"
     height="1em"
     {...props}
   >
-    <defs>
-      <pattern
-        x={0}
-        y={0}
-        width={25}
-        height={25}
-        patternUnits="userSpaceOnUse"
-        viewBox="0 0 100 100"
-        id="noj_svg__a"
-      >
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 63.103 39.105)"
-          d="M0 0h9.96v100.615H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 86.226 89.218)"
-          d="M0 0h9.96v160.436H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 48.78 113.547)"
-          d="M0 0h9.96v150.708H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 39.364 149.807)"
-          d="M0 0h9.96v129.654H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(45 7.041 177.012)"
-          d="M0 0h9.96v100.615H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 46.948 69.606)"
-          d="M0 0h9.96v134.228H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 61.323 63.458)"
-          d="M0 0h9.96v134.228H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 32.922 75.652)"
-          d="M0 0h9.96v134.228H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 24.423 95.619)"
-          d="M0 0h9.96v177.497H0z"
-        />
-        <path
-          style={{
-            stroke: "currentColor",
-          }}
-          transform="rotate(135 2.578 82.881)"
-          d="M0 0h9.96v134.228H0z"
-        />
-      </pattern>
-      <pattern
-        id="noj_svg__b"
-        patternTransform="translate(55.918 50.534)"
-        xlinkHref="#noj_svg__a"
-      />
-      <pattern
-        id="noj_svg__c"
-        patternTransform="translate(124.872 92.633)"
-        xlinkHref="#noj_svg__a"
-      />
-    </defs>
     <rect
       x={25}
       y={25}
@@ -162,7 +69,7 @@ const SvgNoj = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 4,
       }}
       d="m35.511 67.613.316 2.284c.315 2.284.947 6.851 3.93 9.74 2.983 2.888 8.317 4.097 10.132.709 1.815-3.388.111-11.374-.505-18.144-.615-6.771-.142-12.328 3.741-14.68 3.883-2.352 11.174-1.499 28.93-2.109 17.756-.61 45.975-2.683 59.754.158 13.778 2.841 13.115 10.595 12.973 24.148-.142 13.552.236 32.904.426 42.579l.189 9.676"
     />
@@ -170,32 +77,185 @@ const SvgNoj = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 4,
       }}
       d="m111.645 44.191 3.842.832c3.842.831 11.525 2.493 15.275 8.681 3.749 6.187 3.565 16.9-3.536 20.067-7.101 3.167-21.117-1.211-27.802-1.211-6.685 0-6.037 4.378-2.636 5.999 3.401 1.621 9.557.484 11.316 2.225 1.76 1.741-.876 6.359-4.616 7.626-3.741 1.268-8.586-.816-12.603-.2-4.016.616-7.205 3.93-6.305 5.957.9 2.026 5.887 2.763 7.055 5.083 1.168 2.32-1.483 6.223-5.934 8.117-4.451 1.893-10.701 1.779-15.744 4.478-5.042 2.698-8.878 8.211-10.795 10.967l-1.918 2.756"
     />
     <ellipse
       style={{
-        fill: "url(#noj_svg__b)",
         stroke: "currentColor",
-        strokeMiterlimit: 1,
-        strokeWidth: 2,
+        fill: "none",
+        strokeWidth: 5,
       }}
-      cx={68.418}
-      cy={63.034}
-      rx={12.074}
-      ry={11.648}
+      cx={70.959}
+      cy={65.005}
+      rx={12.715}
+      ry={11.606}
     />
     <ellipse
       style={{
         stroke: "currentColor",
-        strokeWidth: 2,
-        fill: "url(#noj_svg__c)",
+        fill: "none",
+        strokeWidth: 3,
       }}
-      cx={137.372}
-      cy={105.133}
-      rx={12.074}
-      ry={11.648}
+      cx={64.6}
+      cy={60.475}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={77.485}
+      cy={69.867}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={77.991}
+      cy={63.028}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={72.566}
+      cy={59.143}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={64.589}
+      cy={67.867}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={70.428}
+      cy={72.166}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={70.646}
+      cy={65.557}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 5,
+      }}
+      cx={130.187}
+      cy={102.316}
+      rx={12.715}
+      ry={11.606}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={123.828}
+      cy={97.786}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={136.713}
+      cy={107.178}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={137.219}
+      cy={100.339}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={131.794}
+      cy={96.454}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={123.817}
+      cy={105.178}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={129.656}
+      cy={109.477}
+      rx={3.231}
+      ry={2.982}
+    />
+    <ellipse
+      style={{
+        stroke: "currentColor",
+        fill: "none",
+        strokeWidth: 3,
+      }}
+      cx={129.874}
+      cy={102.868}
+      rx={3.231}
+      ry={2.982}
     />
   </svg>
 );

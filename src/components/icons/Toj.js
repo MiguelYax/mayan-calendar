@@ -73,7 +73,7 @@ const SvgToj = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 4,
+        strokeWidth: 5,
       }}
       rx={10.472}
       ry={10.472}
@@ -86,7 +86,7 @@ const SvgToj = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 4,
+        strokeWidth: 5,
       }}
       rx={10.472}
       ry={10.472}
@@ -94,8 +94,8 @@ const SvgToj = (props) => (
     <ellipse
       style={{
         stroke: "currentColor",
-        strokeWidth: 4,
         fill: "none",
+        strokeWidth: 5,
       }}
       cx={100.517}
       cy={81.143}

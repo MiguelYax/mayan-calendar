@@ -69,7 +69,7 @@ const SvgKan = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       cx={71.047}
       cy={66.838}
@@ -81,7 +81,7 @@ const SvgKan = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       cx={71.047}
       cy={66.838}

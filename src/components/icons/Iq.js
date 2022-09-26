@@ -69,7 +69,7 @@ const SvgIq = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 3,
+        strokeWidth: 5,
       }}
       d="M65.71 51.216h72.281c15.829-.025 14.576 20.339 0 20.331h-26.284v27.108c-.357 16.646-19.346 16.012-19.713 0V71.547H65.71c-13.592.943-18.548-19.092 0-20.331Z"
     />

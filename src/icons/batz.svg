@@ -3,15 +3,14 @@
   <defs>
     <bx:grid x="0" y="0" width="18.48" height="19.507"/>
   </defs>
-  <rect x="81.148" y="35.288" width="41.498" height="11.971" fill="none" stroke="black" rx="5.985" ry="5.985" style="stroke-width: 3px;"/>
-  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 36.756 82.546 C 59.051 69.85 84.328 113.536 67.351 123.203"/>
-  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 35.749 82.667 C 52.907 81.445 71.839 110.246 66.344 123.324"/>
+  <rect x="81.148" y="35.288" width="41.498" height="11.971" fill="none" stroke="black" rx="5.985" ry="5.985" style="stroke-width: 5px;"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px;" d="M 35.749 82.667 C 52.907 81.445 71.839 110.246 66.344 123.324"/>
   <g transform="matrix(1, 0, 0, 1, -1, 0)">
-    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 36.756 82.546 C 59.051 69.85 84.328 113.536 67.351 123.203"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px;" d="M 36.756 82.546 C 74.92 66.1 85.067 117.042 67.351 123.203"/>
   </g>
-  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 134.834 83.52 C 151.992 82.298 170.924 111.099 165.429 124.177" transform="matrix(-0.358368, -0.933581, 0.933581, -0.358368, 107.658044, 281.650648)"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px;" d="M 134.834 83.52 C 151.992 82.298 170.924 111.099 165.429 124.177" transform="matrix(-0.358368, -0.933581, 0.933581, -0.358368, 107.658044, 281.650648)"/>
   <g transform="matrix(-0.358368, -0.933581, 0.933581, -0.358368, 71.979683, 189.316132)">
-    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 36.756 82.546 C 59.051 69.85 84.328 113.536 67.351 123.203"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px;" d="M 38.266 84.196 C 51.01 68.792 93.402 98.388 68.861 124.853"/>
   </g>
   <g transform="matrix(1, 0, 0, 1, -0.987831, -0.591133)">
     <rect x="25" y="25" width="151.112" height="110" fill="none" stroke-width="10" stroke="black" rx="25.062" ry="25.062" style=""/>

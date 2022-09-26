@@ -19,7 +19,7 @@ export { default as Svg7 } from "./7";
 export { default as Svg8 } from "./8";
 export { default as Svg9 } from "./9";
 export { default as Aj } from "./Aj";
-export { default as Ajmaq } from "./Ajmaq";
+export { default as Ajmak } from "./Ajmak";
 export { default as Ajpu } from "./Ajpu";
 export { default as Aqabal } from "./Aqabal";
 export { default as Base } from "./Base";

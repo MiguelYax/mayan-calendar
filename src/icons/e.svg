@@ -5,13 +5,13 @@
   <circle r="5" cx="122" cy="65" fill="none" stroke="black" style="stroke-width: 4px;"/>
   <circle r="5" cx="135" cy="78" fill="none" stroke="black" style="stroke-width: 4px;"/>
   <circle r="5" cx="152" cy="80" fill="none" stroke="black" style="stroke-width: 4px;"/>
-  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" d="M 38.721 42.668 C 53.779 47.742 48.359 72.375 36.234 79.968"/>
-  <circle r="5" cx="44.984" cy="117.071" fill="none" stroke="black" style="stroke-width: 4px;"/>
-  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 50.286 117.427 C 50.76 107.954 64.97 108.309 64.496 117.782 L 127.373 117.072 C 129.595 106.702 151.099 109.354 144.07 124.887"/>
-  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" d="M 50.199 113.463 C 47.121 103.28 68.081 102.924 67.607 112.397 L 124.8 111.688 C 128.019 100.071 155.063 102.105 145.405 120.924"/>
-  <circle r="15" cx="75.925" cy="62.825" fill="none" stroke="black" style="stroke-width: 4px; stroke-dashoffset: 11px; stroke-linecap: round; stroke-dasharray: 94;" transform="matrix(-0.945519, 0.325568, -0.325568, -0.945519, 165.325339, 106.034188)"/>
-  <path d="M 36.802 52.886 L 50.312 61.774 L 23.292 61.774 L 36.802 52.886 Z" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" transform="matrix(0.017452, 0.999848, -0.999848, 0.017452, 97.437637, 54.98381)" bx:shape="triangle 23.292 52.886 27.02 8.888 0.5 0 1@588e06ca"/>
-  <path style="stroke: rgb(0, 0, 0); stroke-width: 3px; fill: none;" d="M 36.234 116.463 C 33.985 110.105 42.037 101.361 49.89 108.924"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px;" d="M 38.721 42.668 C 53.779 47.742 48.359 72.375 36.234 79.968"/>
+  <circle r="5" cx="44.984" cy="117.071" fill="none" stroke="black" style="stroke-width: 5px;"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" d="M 50.286 117.427 C 50.76 107.954 64.97 108.309 64.496 117.782 L 127.373 117.072 C 129.595 106.702 151.099 109.354 144.07 124.887"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" d="M 50.199 112.463 C 47.121 102.28 68.081 101.924 67.607 111.397 L 124.8 110.688 C 128.019 99.071 155.063 101.105 145.405 119.924"/>
+  <circle r="15" cx="75.925" cy="62.825" fill="none" stroke="black" style="stroke-dashoffset: 11px; stroke-linecap: round; stroke-dasharray: 94; stroke-width: 5px;" transform="matrix(-0.945519, 0.325568, -0.325568, -0.945519, 165.325339, 106.034188)"/>
+  <path d="M 36.802 52.886 L 50.312 61.774 L 23.292 61.774 L 36.802 52.886 Z" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px;" transform="matrix(0.017452, 0.999848, -0.999848, 0.017452, 97.437637, 54.98381)" bx:shape="triangle 23.292 52.886 27.02 8.888 0.5 0 1@588e06ca"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" d="M 36.234 116.463 C 33.985 110.105 42.037 101.361 49.89 108.924"/>
   <g transform="matrix(1, 0, 0, 1, 1.088753, 0.389801)">
     <rect x="25" y="25" width="151.112" height="110" fill="none" stroke-width="10" stroke="black" rx="25.062" ry="25.062" style=""/>
     <rect x="35" y="35" width="131.872" height="90" fill="none" stroke-width="5" stroke="black" rx="15" ry="15" style=""/>

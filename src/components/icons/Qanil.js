@@ -69,15 +69,15 @@ const SvgQanil = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 4,
+        strokeWidth: 5,
       }}
       d="M100.616 60.78c2.738 3.833-17.386 24.369-20.124 20.536 2.168-3.406 21.774 17.735 20.123 20.329-3.285-2.738 16.838-23.067 20.123-20.329-2.122 3.065-22.909-16.51-20.122-20.536Z"
     />
     <ellipse
       style={{
         stroke: "currentColor",
-        strokeWidth: 3,
         fill: "none",
+        strokeWidth: 4,
       }}
       cx={74.435}
       cy={59.393}
@@ -87,8 +87,8 @@ const SvgQanil = (props) => (
     <ellipse
       style={{
         stroke: "currentColor",
-        strokeWidth: 3,
         fill: "none",
+        strokeWidth: 4,
       }}
       cx={127.31}
       cy={59.393}
@@ -98,8 +98,8 @@ const SvgQanil = (props) => (
     <ellipse
       style={{
         stroke: "currentColor",
-        strokeWidth: 3,
         fill: "none",
+        strokeWidth: 4,
       }}
       cx={74.435}
       cy={103.08}
@@ -109,8 +109,8 @@ const SvgQanil = (props) => (
     <ellipse
       style={{
         stroke: "currentColor",
-        strokeWidth: 3,
         fill: "none",
+        strokeWidth: 4,
       }}
       cx={127.31}
       cy={103.08}

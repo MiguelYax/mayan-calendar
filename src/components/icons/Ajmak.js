@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgAjmaq = (props) => (
+const SvgAjmak = (props) => (
   <svg
     viewBox="0 0 200 200"
     xmlns="http://www.w3.org/2000/svg"
@@ -12,24 +12,24 @@ const SvgAjmaq = (props) => (
       style={{
         stroke: "currentColor",
         fill: "none",
-        strokeWidth: 4,
+        strokeWidth: 5,
       }}
       d="M35 78.028h7.67c7.669 0 23.008 0 27.29-4.186 4.284-4.186-2.49-12.558 7.908-16.744s37.968-4.186 48.306 0c10.339 4.186 3.446 12.558 6.892 16.744 3.447 4.186 17.231 4.186 24.124 4.186h6.892"
     />
     <path
       style={{
         stroke: "currentColor",
-        strokeWidth: 4,
         strokeLinecap: "round",
         fill: "none",
+        strokeWidth: 5,
       }}
-      d="M83 124.399c19.59-4.268 19.59-19.927 19.27-35.768.32 15.841.32 31.5 20.238 35.933"
+      d="M83 123.399c19.59-4.268 19.59-19.927 19.27-35.768.32 15.841.32 31.5 20.238 35.933"
     />
     <path
       style={{
         fill: "#d8d8d8",
         stroke: "currentColor",
-        strokeWidth: 4,
+        strokeWidth: 5,
       }}
       d="M80.672 35v21.262m41.26-20.935v21.262"
     />
@@ -95,4 +95,4 @@ const SvgAjmaq = (props) => (
   </svg>
 );
 
-export default SvgAjmaq;
+export default SvgAjmak;
