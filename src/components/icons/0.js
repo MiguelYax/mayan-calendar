@@ -19,7 +19,7 @@ const Svg0 = (props) => (
     />
     <path d="M35 77q65 73 130 0" stroke="#000" strokeWidth={10} fill="none" />
     <path
-      d="M75 62q-15 18 0 46M102 59q-17 25 0 56M125 62q-10 18 0 46"
+      d="M75 62q-15 18 0 46m27-49q-17 25 0 56m23-53q-10 18 0 46"
       stroke="#000"
       strokeWidth={10}
       fill="none"

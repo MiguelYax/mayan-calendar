@@ -16,7 +16,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "icons": "npx @svgr/cli src/icons/ --out-dir src/components/icons --icon"
+    "svg:optimize": "svgo -f ./src/icons -o ./.icons",
+    "svg:replace": "sed -i  's/bx:shape/bxShape/g; s/bx:d/bxD/g; s/xmlns:bx/xmlnsBx/g' .icons/* ",
+    "svg:components": "npx @svgr/cli ./.icons --out-dir src/components/icons --icon",
+    "icons": "rm -rf .icons && npm run svg:optimize && npm run svg:replace && npm run svg:components && rm -rf .icons"
   },
   "eslintConfig": {
     "extends": [
@@ -39,9 +42,11 @@
   "devDependencies": {
     "@svgr/cli": "^6.2.1",
     "bootstrap": "^5.1.3",
-    "react-bootstrap": "^2.2.1"
+    "react-bootstrap": "^2.2.1",
+    "svgo": "^2.8.0"
   },
   "overrides": {
-    "nth-check": "^2.1.1"
+    "nth-check": "^2.1.1",
+    "@svgr/webpack": "^6.2.1"
   }
 }

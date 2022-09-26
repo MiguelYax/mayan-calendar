@@ -12,7 +12,7 @@ const Svg14 = (props) => (
     <circle r={15} cx={80} cy={77} />
     <circle r={15} cx={120} cy={77} />
     <circle r={15} cx={160} cy={77} />
-    <path d="M25 108h150v30H25zM25 155h150v30H25z" />
+    <path d="M25 108h150v30H25zm0 47h150v30H25z" />
   </svg>
 );
 
