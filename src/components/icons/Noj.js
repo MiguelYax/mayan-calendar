@@ -21,70 +21,70 @@ const SvgNoj = (props) => (
       >
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(45 63.103 39.105)"
           d="M0 0h9.96v100.615H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(45 86.226 89.218)"
           d="M0 0h9.96v160.436H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(45 48.78 113.547)"
           d="M0 0h9.96v150.708H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(45 39.364 149.807)"
           d="M0 0h9.96v129.654H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(45 7.041 177.012)"
           d="M0 0h9.96v100.615H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(135 46.948 69.606)"
           d="M0 0h9.96v134.228H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(135 61.323 63.458)"
           d="M0 0h9.96v134.228H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(135 32.922 75.652)"
           d="M0 0h9.96v134.228H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(135 24.423 95.619)"
           d="M0 0h9.96v177.497H0z"
         />
         <path
           style={{
-            stroke: "#000",
+            stroke: "currentColor",
           }}
           transform="rotate(135 2.578 82.881)"
           d="M0 0h9.96v134.228H0z"
@@ -108,7 +108,7 @@ const SvgNoj = (props) => (
       height={110}
       fill="none"
       strokeWidth={10}
-      stroke="#000"
+      stroke="currentColor"
       rx={25.062}
       ry={25.062}
     />
@@ -119,13 +119,13 @@ const SvgNoj = (props) => (
       height={90}
       fill="none"
       strokeWidth={5}
-      stroke="#000"
+      stroke="currentColor"
       rx={15}
       ry={15}
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeLinecap: "round",
         strokeWidth: 10,
@@ -134,7 +134,7 @@ const SvgNoj = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeLinecap: "round",
         strokeWidth: 10,
@@ -144,7 +144,7 @@ const SvgNoj = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 10,
       }}
@@ -152,7 +152,7 @@ const SvgNoj = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 6,
       }}
@@ -160,7 +160,7 @@ const SvgNoj = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -168,7 +168,7 @@ const SvgNoj = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -177,7 +177,7 @@ const SvgNoj = (props) => (
     <ellipse
       style={{
         fill: "url(#noj_svg__b)",
-        stroke: "#000",
+        stroke: "currentColor",
         strokeMiterlimit: 1,
         strokeWidth: 2,
       }}
@@ -188,7 +188,7 @@ const SvgNoj = (props) => (
     />
     <ellipse
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         strokeWidth: 2,
         fill: "url(#noj_svg__c)",
       }}

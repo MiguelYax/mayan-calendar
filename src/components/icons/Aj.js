@@ -14,7 +14,7 @@ const SvgAj = (props) => (
       width={9.435}
       height={23.028}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       style={{
         strokeWidth: 4,
       }}
@@ -27,7 +27,7 @@ const SvgAj = (props) => (
       width={9.435}
       height={23.028}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       rx={4.718}
       ry={4.718}
       style={{
@@ -36,7 +36,7 @@ const SvgAj = (props) => (
     />
     <path
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       style={{
         strokeWidth: 4,
       }}
@@ -45,7 +45,7 @@ const SvgAj = (props) => (
     <path
       style={{
         fill: "#d8d8d8",
-        stroke: "#000",
+        stroke: "currentColor",
         strokeWidth: 5,
       }}
       d="M35 89.857h129.082v.205H35z"
@@ -58,7 +58,7 @@ const SvgAj = (props) => (
         height={110}
         fill="none"
         strokeWidth={10}
-        stroke="#000"
+        stroke="currentColor"
         rx={25.062}
         ry={25.062}
       />
@@ -69,13 +69,13 @@ const SvgAj = (props) => (
         height={90}
         fill="none"
         strokeWidth={5}
-        stroke="#000"
+        stroke="currentColor"
         rx={15}
         ry={15}
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -84,7 +84,7 @@ const SvgAj = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -94,7 +94,7 @@ const SvgAj = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 10,
         }}
@@ -102,7 +102,7 @@ const SvgAj = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 6,
         }}

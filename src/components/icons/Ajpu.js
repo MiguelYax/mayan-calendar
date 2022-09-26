@@ -15,7 +15,7 @@ const SvgAjpu = (props) => (
       height={110}
       fill="none"
       strokeWidth={10}
-      stroke="#000"
+      stroke="currentColor"
       rx={25.062}
       ry={25.062}
     />
@@ -26,13 +26,13 @@ const SvgAjpu = (props) => (
       height={90}
       fill="none"
       strokeWidth={5}
-      stroke="#000"
+      stroke="currentColor"
       rx={15}
       ry={15}
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeLinecap: "round",
         strokeWidth: 10,
@@ -41,7 +41,7 @@ const SvgAjpu = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeLinecap: "round",
         strokeWidth: 10,
@@ -51,7 +51,7 @@ const SvgAjpu = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 10,
       }}
@@ -59,7 +59,7 @@ const SvgAjpu = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 6,
       }}
@@ -67,7 +67,7 @@ const SvgAjpu = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         strokeWidth: 4,
         strokeLinecap: "round",
         fill: "none",
@@ -80,7 +80,7 @@ const SvgAjpu = (props) => (
       width={130.24}
       height={40.658}
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 4,
       }}
@@ -89,7 +89,7 @@ const SvgAjpu = (props) => (
     />
     <ellipse
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
       }}
       cx={100.268}
       cy={102.273}
@@ -98,7 +98,7 @@ const SvgAjpu = (props) => (
     />
     <ellipse
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
       }}
       cx={59.793}
       cy={58.351}
@@ -107,7 +107,7 @@ const SvgAjpu = (props) => (
     />
     <ellipse
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
       }}
       cx={142.472}
       cy={57.352}

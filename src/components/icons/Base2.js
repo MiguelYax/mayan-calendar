@@ -15,7 +15,7 @@ const SvgBase2 = (props) => (
       height={110}
       fill="none"
       strokeWidth={10}
-      stroke="#000"
+      stroke="currentColor"
       rx={15}
       ry={15}
     />
@@ -26,43 +26,43 @@ const SvgBase2 = (props) => (
       height={90}
       fill="none"
       strokeWidth={5}
-      stroke="#000"
+      stroke="currentColor"
       rx={15}
       ry={15}
     />
     <path
       d="M80 140c0 50 40 50 40 0"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth={10}
       fill="none"
     />
     <path
       d="M90 140c0 35 20 35 20 0"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth={5}
       fill="none"
     />
     <path
       d="M40 135c-20 55 40 55 40 0"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth={10}
       fill="none"
     />
     <path
       d="M50 135c-20 40 20 40 20 0"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth={5}
       fill="none"
     />
     <path
       d="M120 135c0 55 60 55 40 0"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth={10}
       fill="none"
     />
     <path
       d="M130 135c0 40 40 40 20 0"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth={5}
       fill="none"
     />

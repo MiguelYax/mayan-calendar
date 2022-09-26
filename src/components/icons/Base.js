@@ -15,7 +15,7 @@ const SvgBase = (props) => (
       height={110}
       fill="none"
       strokeWidth={10}
-      stroke="#000"
+      stroke="currentColor"
       rx={25.062}
       ry={25.062}
     />
@@ -26,13 +26,13 @@ const SvgBase = (props) => (
       height={90}
       fill="none"
       strokeWidth={5}
-      stroke="#000"
+      stroke="currentColor"
       rx={15}
       ry={15}
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeLinecap: "round",
         strokeWidth: 10,
@@ -41,7 +41,7 @@ const SvgBase = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeLinecap: "round",
         strokeWidth: 10,
@@ -51,7 +51,7 @@ const SvgBase = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 10,
       }}
@@ -59,7 +59,7 @@ const SvgBase = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 6,
       }}

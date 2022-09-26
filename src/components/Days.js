@@ -4,10 +4,13 @@ import {
 
 } from './icons';
 
-export const dayIcons = (width, height) => {
+export const dayIcons = (props = {}) => {
   const size = {
-    width,
-    height
+    props: {},
+    width: '3em',
+    height: '3em',
+    fill: 'currentColor',
+    stroke: 'currentColor'
   }
 
   return {
@@ -34,10 +37,10 @@ export const dayIcons = (width, height) => {
   }
 };
 
-export const nahualIcons = (width, height) => {
+export const nahualIcons = (props = {}) => {
   const size = {
-    width,
-    height
+    width: '3em',
+    height: '3em'
   }
 
   return {

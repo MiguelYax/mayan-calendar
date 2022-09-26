@@ -14,14 +14,14 @@ const SvgE = (props) => (
       cy={53}
       fill="none"
       strokeWidth={10}
-      stroke="#000"
+      stroke="currentColor"
     />
     <circle
       r={5}
       cx={118}
       cy={48}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       style={{
         strokeWidth: 4,
       }}
@@ -31,7 +31,7 @@ const SvgE = (props) => (
       cx={122}
       cy={65}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       style={{
         strokeWidth: 4,
       }}
@@ -41,7 +41,7 @@ const SvgE = (props) => (
       cx={135}
       cy={78}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       style={{
         strokeWidth: 4,
       }}
@@ -51,14 +51,14 @@ const SvgE = (props) => (
       cx={152}
       cy={80}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       style={{
         strokeWidth: 4,
       }}
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 4,
       }}
@@ -69,14 +69,14 @@ const SvgE = (props) => (
       cx={44.984}
       cy={117.071}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       style={{
         strokeWidth: 4,
       }}
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -84,7 +84,7 @@ const SvgE = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -95,7 +95,7 @@ const SvgE = (props) => (
       cx={75.925}
       cy={62.825}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       style={{
         strokeWidth: 4,
         strokeDashoffset: 11,
@@ -107,7 +107,7 @@ const SvgE = (props) => (
     <path
       d="m36.802 52.886 13.51 8.888h-27.02l13.51-8.888Z"
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 4,
       }}
@@ -115,7 +115,7 @@ const SvgE = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         strokeWidth: 3,
         fill: "none",
       }}
@@ -129,7 +129,7 @@ const SvgE = (props) => (
         height={110}
         fill="none"
         strokeWidth={10}
-        stroke="#000"
+        stroke="currentColor"
         rx={25.062}
         ry={25.062}
       />
@@ -140,13 +140,13 @@ const SvgE = (props) => (
         height={90}
         fill="none"
         strokeWidth={5}
-        stroke="#000"
+        stroke="currentColor"
         rx={15}
         ry={15}
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -155,7 +155,7 @@ const SvgE = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -165,7 +165,7 @@ const SvgE = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 10,
         }}
@@ -173,7 +173,7 @@ const SvgE = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 6,
         }}

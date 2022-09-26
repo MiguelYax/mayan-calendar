@@ -14,7 +14,7 @@ const SvgBatz = (props) => (
       width={41.498}
       height={11.971}
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       rx={5.985}
       ry={5.985}
       style={{
@@ -23,7 +23,7 @@ const SvgBatz = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -31,7 +31,7 @@ const SvgBatz = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -39,7 +39,7 @@ const SvgBatz = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -48,7 +48,7 @@ const SvgBatz = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -57,7 +57,7 @@ const SvgBatz = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -72,7 +72,7 @@ const SvgBatz = (props) => (
         height={110}
         fill="none"
         strokeWidth={10}
-        stroke="#000"
+        stroke="currentColor"
         rx={25.062}
         ry={25.062}
       />
@@ -83,13 +83,13 @@ const SvgBatz = (props) => (
         height={90}
         fill="none"
         strokeWidth={5}
-        stroke="#000"
+        stroke="currentColor"
         rx={15}
         ry={15}
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -98,7 +98,7 @@ const SvgBatz = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -108,7 +108,7 @@ const SvgBatz = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 10,
         }}
@@ -116,7 +116,7 @@ const SvgBatz = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 6,
         }}

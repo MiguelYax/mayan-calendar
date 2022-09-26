@@ -10,7 +10,7 @@ const SvgAjmaq = (props) => (
   >
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 4,
       }}
@@ -18,7 +18,7 @@ const SvgAjmaq = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         strokeWidth: 4,
         strokeLinecap: "round",
         fill: "none",
@@ -28,7 +28,7 @@ const SvgAjmaq = (props) => (
     <path
       style={{
         fill: "#d8d8d8",
-        stroke: "#000",
+        stroke: "currentColor",
         strokeWidth: 4,
       }}
       d="M80.672 35v21.262m41.26-20.935v21.262"
@@ -41,7 +41,7 @@ const SvgAjmaq = (props) => (
         height={110}
         fill="none"
         strokeWidth={10}
-        stroke="#000"
+        stroke="currentColor"
         rx={25.062}
         ry={25.062}
       />
@@ -52,13 +52,13 @@ const SvgAjmaq = (props) => (
         height={90}
         fill="none"
         strokeWidth={5}
-        stroke="#000"
+        stroke="currentColor"
         rx={15}
         ry={15}
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -67,7 +67,7 @@ const SvgAjmaq = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -77,7 +77,7 @@ const SvgAjmaq = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 10,
         }}
@@ -85,7 +85,7 @@ const SvgAjmaq = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 6,
         }}

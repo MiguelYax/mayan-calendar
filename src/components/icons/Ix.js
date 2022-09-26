@@ -10,7 +10,7 @@ const SvgIx = (props) => (
   >
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 5,
       }}
@@ -18,7 +18,7 @@ const SvgIx = (props) => (
     />
     <ellipse
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 4,
       }}
@@ -29,7 +29,7 @@ const SvgIx = (props) => (
     />
     <ellipse
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -40,7 +40,7 @@ const SvgIx = (props) => (
     />
     <ellipse
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 3,
       }}
@@ -51,7 +51,7 @@ const SvgIx = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
       }}
       d="M41.718 72.743c2.297-1.254 12.479-5.043 9.036-16.837 2.203 6.37 2.89 11.794-4.914 19.302m11.105-1.242c2.297-1.254 12.479-5.043 9.036-16.837 2.203 6.37 2.89 11.794-4.914 19.302m10.878-.465c2.297-1.254 12.479-5.043 9.036-16.837 2.203 6.37 2.89 11.794-4.914 19.302m11.878-2.465c2.297-1.254 12.479-5.043 9.036-16.837 2.203 6.37 2.89 11.794-4.914 19.302m9.878-2.465c2.297-1.254 12.479-5.043 9.036-16.837 2.203 6.37 2.89 11.794-4.914 19.302m9.878-2.465c2.297-1.254 12.479-5.043 9.036-16.837 2.203 6.37 2.89 11.794-4.914 19.302m10.878-3.465c2.297-1.254 12.479-5.043 9.036-16.837 2.203 6.37 2.89 11.794-4.914 19.302m10.878-3.465c2.297-1.254 12.479-5.043 9.036-16.837 2.203 6.37 2.89 11.794-4.914 19.302"
     />
@@ -63,7 +63,7 @@ const SvgIx = (props) => (
         height={110}
         fill="none"
         strokeWidth={10}
-        stroke="#000"
+        stroke="currentColor"
         rx={25.062}
         ry={25.062}
       />
@@ -74,13 +74,13 @@ const SvgIx = (props) => (
         height={90}
         fill="none"
         strokeWidth={5}
-        stroke="#000"
+        stroke="currentColor"
         rx={15}
         ry={15}
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -89,7 +89,7 @@ const SvgIx = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeLinecap: "round",
           strokeWidth: 10,
@@ -99,7 +99,7 @@ const SvgIx = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 10,
         }}
@@ -107,7 +107,7 @@ const SvgIx = (props) => (
       />
       <path
         style={{
-          stroke: "#000",
+          stroke: "currentColor",
           fill: "none",
           strokeWidth: 6,
         }}

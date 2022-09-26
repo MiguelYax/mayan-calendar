@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "svg:optimize": "svgo -f ./src/icons -o ./.icons",
-    "svg:replace": "sed -i  's/bx:shape/bxShape/g; s/bx:d/bxD/g; s/xmlns:bx/xmlnsBx/g' .icons/* ",
+    "svg:replace": "sed -i  's/bx:shape/bxShape/g; s/bx:d/bxD/g; s/xmlns:bx/xmlnsBx/g; s/#000/currentColor/g'   .icons/* ",
     "svg:components": "npx @svgr/cli ./.icons --out-dir src/components/icons --icon",
     "icons": "rm -rf .icons && npm run svg:optimize && npm run svg:replace && npm run svg:components && rm -rf .icons"
   },

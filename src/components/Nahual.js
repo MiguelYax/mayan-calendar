@@ -1,9 +1,11 @@
+
 import { dayIcons, nahualIcons } from './Days';
+import "./nahual.css"
 
-const days = dayIcons('3em', '3em');
-const nahuals = nahualIcons('3em', '3em')
+const days = dayIcons();
+const nahuals = nahualIcons()
 
-function Nahual({ day, nahual, nahualDay }) {
+function Nahual({ day, nahual, nahualDay = 0 }) {
 
     return (
         <div className="day-container" >

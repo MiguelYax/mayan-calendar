@@ -15,7 +15,7 @@ const SvgToj = (props) => (
       height={110}
       fill="none"
       strokeWidth={10}
-      stroke="#000"
+      stroke="currentColor"
       rx={25.062}
       ry={25.062}
     />
@@ -26,13 +26,13 @@ const SvgToj = (props) => (
       height={90}
       fill="none"
       strokeWidth={5}
-      stroke="#000"
+      stroke="currentColor"
       rx={15}
       ry={15}
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeLinecap: "round",
         strokeWidth: 10,
@@ -41,7 +41,7 @@ const SvgToj = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeLinecap: "round",
         strokeWidth: 10,
@@ -51,7 +51,7 @@ const SvgToj = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 10,
       }}
@@ -59,7 +59,7 @@ const SvgToj = (props) => (
     />
     <path
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 6,
       }}
@@ -71,7 +71,7 @@ const SvgToj = (props) => (
       width={89.528}
       height={49.078}
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 4,
       }}
@@ -84,7 +84,7 @@ const SvgToj = (props) => (
       width={74.501}
       height={33.883}
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         fill: "none",
         strokeWidth: 4,
       }}
@@ -93,7 +93,7 @@ const SvgToj = (props) => (
     />
     <ellipse
       style={{
-        stroke: "#000",
+        stroke: "currentColor",
         strokeWidth: 4,
         fill: "none",
       }}
