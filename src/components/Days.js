@@ -1,16 +1,13 @@
 import {
   Svg0, Svg1, Svg2, Svg3, Svg4, Svg5, Svg6, Svg7, Svg8, Svg9, Svg10, Svg11, Svg12, Svg13, Svg14, Svg15, Svg16, Svg17, Svg18, Svg19,
   Aj, Ajmak, Ajpu, Aqabal, Batz, E, Imox, Iq, Ix, Kame, Kan, Kat, Kawoq, Kej, Noj, Qanil, Tijax, Toj, Tzi, Tzikin
-
 } from './icons';
 
 export const dayIcons = (props = {}) => {
   const size = {
-    props: {},
     width: '3em',
     height: '3em',
-    fill: 'currentColor',
-    stroke: 'currentColor'
+    ...props
   }
 
   return {
@@ -39,8 +36,9 @@ export const dayIcons = (props = {}) => {
 
 export const nahualIcons = (props = {}) => {
   const size = {
-    width: '3em',
-    height: '3em'
+    width: '5em',
+    height: '5em',
+    ...props
   }
 
   return {

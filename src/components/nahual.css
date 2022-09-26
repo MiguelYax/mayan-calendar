@@ -1,3 +1,15 @@
 .day-container {
-    color: red;
+    /* color: red; */
+}
+
+.nahual {
+    color: blue;
+}
+
+.nahual-day {
+    color: darkblue;
+}
+
+.today {
+    color: green;
 }

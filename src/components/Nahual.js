@@ -1,25 +1,30 @@
 
 import { dayIcons, nahualIcons } from './Days';
 import "./nahual.css"
+import { Card } from 'react-bootstrap';
 
 const days = dayIcons();
 const nahuals = nahualIcons()
 
-function Nahual({ day, nahual, nahualDay = 0 }) {
+function Nahual({ day, nahual, nahualDay, isToday }) {
+    if (!day) {
+        return null;
+    }
 
     return (
-        <div className="day-container" >
-            <div className='day'>
-                {day}
-            </div>
-            <div className='nahual-day'>
-                {days[nahualDay]}
-            </div>
-            <div data={nahual} className='nahual'>
-                {nahual && nahuals[nahual.replace(/'/g, '')]}
-            </div>
-        </div>
+        <Card
 
+        >
+            <Card.Header>{day}</Card.Header>
+            <Card.Body>
+                <Card.Title>
+                </Card.Title>
+                <Card.Text>
+                    {days[nahualDay]}
+                    {nahual && nahuals[nahual.replace(/'/g, '')]}
+                </Card.Text>
+            </Card.Body>
+        </Card>
     )
 }
 

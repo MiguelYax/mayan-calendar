@@ -1,7 +1,7 @@
 import { parseDate, getMonthCalendar, dayNames } from '../utils'
 import { Table } from 'react-bootstrap'
+import { useBootstrapPrefix } from 'react-bootstrap/esm/ThemeProvider';
 import Nahual from './Nahual'
-import * as days from './Days';
 
 function Calendar({ date }) {
     const dateConfig = parseDate(date);
@@ -12,44 +12,38 @@ function Calendar({ date }) {
         weeks,
     } = getMonthCalendar(dateConfig);
 
-    console.log(weeks)
-
 
     return (
-        <div className="container">
-            <div className="calendar">
-                <header>
-                    <h2>{monthName} - {year}</h2>
-                    <a className="" href="#"></a>
-                    <a className="" href="#"></a>
+        <>
+            <header>
+                <h2>{monthName} - {year}</h2>
 
-                </header>
-                <Table>
-                    <thead>
-                        <tr>
-                            {
-                                dayNames.map((day) => <th> {day} </th>)
-                            }
-                        </tr>
-                    </thead>
-                    <tbody>
+            </header>
+            <Table variant='light'>
+                <thead>
+                    <tr>
                         {
-                            Object.entries(weeks).map(([key, week]) => {
-                                return (
-                                    <tr key={`week-${key}`}> {
-                                        week.map(({ day, nahual, nahualDay, isToday }) =>
-                                            <td>
-                                                <Nahual day={day} nahual={nahual} nahualDay={nahualDay} />
-                                            </td>
-                                        )}
-                                    </tr>
-                                )
-                            })
+                            dayNames.map((day, key) => <th key={key}> {day} </th>)
                         }
-                    </tbody>
-                </Table>
-            </div>
-        </div>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        Object.entries(weeks).map(([key, week]) => {
+                            return (
+                                <tr key={`week-${key}`}> {
+                                    week.map((day) =>
+                                        <td>
+                                            <Nahual {...day} />
+                                        </td>
+                                    )}
+                                </tr>
+                            )
+                        })
+                    }
+                </tbody>
+            </Table>
+        </>
     )
 }
 
