@@ -3,9 +3,9 @@ import {
   Container, Row, Col,
 } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import { parseDate, getMonthCalendar, dayNames } from '../utils';
+import { parseDate, getMonthCalendar } from '../helpers/nahual';
 import Nahual from './Nahual';
-
+import { useContentContext } from './ContentProvider';
 function Calendar({ date }) {
   const dateConfig = parseDate(date);
   const {
@@ -13,6 +13,8 @@ function Calendar({ date }) {
     year,
     weeks,
   } = getMonthCalendar(dateConfig);
+
+  const { dayNames } = useContentContext()
 
   return (
     <Container>

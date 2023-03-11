@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { dayIcons, nahualIcons } from './Days';
-import { dayNames } from '../utils';
+import { useContentContext } from './ContentProvider';
 
 const days = dayIcons();
 const nahuals = nahualIcons();
@@ -14,9 +14,10 @@ function Nahual({
   isToday,
   weekDay,
 }) {
-  if (!day) {
+  if (!day)
     return null;
-  }
+
+  const { dayNames } = useContentContext()
 
   return (
     <Card border={isToday && 'info'}>
@@ -41,9 +42,7 @@ Nahual.propTypes = {
   nahual: PropTypes.string.isRequired,
   nahualDay: PropTypes.string.isRequired,
   isToday: PropTypes.bool.isRequired,
-
   weekDay: PropTypes.number.isRequired,
-
 };
 
 export default Nahual;

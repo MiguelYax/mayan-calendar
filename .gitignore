@@ -128,3 +128,8 @@ yarn-error.log*
 
 # icons 
 .icons/
+
+# nextjs
+build
+.next
+out
