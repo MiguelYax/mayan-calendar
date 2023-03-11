@@ -10,7 +10,8 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "bootstrap": "^5.2.3"
   },
   "scripts": {
     "start": "next start",
@@ -27,9 +28,9 @@
     "icons": "rm -rf .icons && npm run svg:optimize && npm run svg:replace && npm run svg:components && rm -rf .icons"
   },
   "devDependencies": {
-    "@svgr/cli": "^6.2.1",
-    "bootstrap": "^5.2.3",
-    "svgo": "^2.8.0"
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-react": "^7.32.2"
   },
   "volta": {
     "node": "18.15.0"

@@ -17,7 +17,7 @@ module.exports = {
     'react',
   ],
   ignorePatterns: [
-    'src/components/icons/*',
+    '/components/icons/*',
     'test/*',
   ],
   rules: {

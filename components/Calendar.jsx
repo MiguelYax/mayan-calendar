@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import { parseDate, getMonthCalendar } from '../helpers/nahual';
 import Nahual from './Nahual';
 import { useContentContext } from './ContentProvider';
+
 function Calendar({ date }) {
   const dateConfig = parseDate(date);
   const {
@@ -14,7 +15,7 @@ function Calendar({ date }) {
     weeks,
   } = getMonthCalendar(dateConfig);
 
-  const { dayNames } = useContentContext()
+  const { dayNames } = useContentContext();
 
   return (
     <Container>

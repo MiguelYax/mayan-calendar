@@ -14,10 +14,9 @@ function Nahual({
   isToday,
   weekDay,
 }) {
-  if (!day)
-    return null;
+  if (!day) { return null; }
 
-  const { dayNames } = useContentContext()
+  const { dayNames } = useContentContext();
 
   return (
     <Card border={isToday && 'info'}>
