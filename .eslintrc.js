@@ -16,6 +16,10 @@ module.exports = {
   plugins: [
     'react',
   ],
+  ignorePatterns: [
+    'src/components/icons/*',
+    'test/*',
+  ],
   rules: {
   },
 };

@@ -1,11 +1,14 @@
 {
   "name": "mayan-calendar",
+  "description": "Mayan Calendar",
   "version": "0.1.0",
   "private": true,
   "author": "Miguel Yax <mig_dj@hotmail.com>",
   "dependencies": {
     "nahuales": "^1.0.4",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^5.0.1"
   },
@@ -17,7 +20,8 @@
     "svg:optimize": "svgo -f ./src/icons -o ./.icons",
     "svg:replace": "sed -i  's/bx:shape/bxShape/g; s/bx:d/bxD/g; s/xmlns:bx/xmlnsBx/g; s/#000/currentColor/g'   .icons/* ",
     "svg:components": "npx @svgr/cli ./.icons --out-dir src/components/icons --icon",
-    "icons": "rm -rf .icons && npm run svg:optimize && npm run svg:replace && npm run svg:components && rm -rf .icons"
+    "icons": "rm -rf .icons && npm run svg:optimize && npm run svg:replace && npm run svg:components && rm -rf .icons",
+    "lint": "eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -49,7 +53,6 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "react-bootstrap": "^2.7.2",
     "svgo": "^2.8.0"
   },
   "overrides": {
