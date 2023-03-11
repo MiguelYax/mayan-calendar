@@ -27,7 +27,7 @@ function Nahual({
       <Card.Body>
         <Card.Title />
         <Card.Text>
-          <p className="lead">{nahual}</p>
+          <div className="lead">{nahual}</div>
           {days[nahualDay]}
           {nahual && nahuals[nahual.replace(/'/g, '')]}
         </Card.Text>

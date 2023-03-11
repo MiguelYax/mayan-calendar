@@ -20,7 +20,7 @@ function Calendar({ date }) {
   return (
     <Container>
       <div className="display-3">{`${monthName} - ${year}`}</div>
-      <Row>
+      <Row key="days">
         <Col className="d-none d-lg-block">
           <Row>
             {dayNames.map((name) => (
@@ -32,8 +32,8 @@ function Calendar({ date }) {
         </Col>
       </Row>
       {
-        Object.entries(weeks).map(([key, week]) => (
-          <Row key={`week-${key}`}>
+        Object.entries(weeks).map(([name, week]) => (
+          <Row key={`week-${name}`}>
             {
               week.map(({
                 day,
@@ -42,7 +42,7 @@ function Calendar({ date }) {
                 isToday,
                 weekDay,
               }) => (
-                <Col sm={12} lg>
+                <Col sm={12} lg key={day}>
                   <Nahual
                     day={day}
                     nahual={nahual}
