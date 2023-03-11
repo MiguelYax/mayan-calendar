@@ -1,6 +1,5 @@
 import { parseDate, getMonthCalendar, dayNames } from '../utils'
-import { Table } from 'react-bootstrap'
-import { useBootstrapPrefix } from 'react-bootstrap/esm/ThemeProvider';
+import { Container, Row, Col, Card } from 'react-bootstrap'
 import Nahual from './Nahual'
 
 function Calendar({ date }) {
@@ -14,36 +13,32 @@ function Calendar({ date }) {
 
 
     return (
-        <>
-            <header>
-                <h2>{monthName} - {year}</h2>
-
-            </header>
-            <Table variant='light'>
-                <thead>
-                    <tr>
-                        {
-                            dayNames.map((day, key) => <th key={key}> {day} </th>)
+        <Container>
+            <div className='display-1'>{monthName} - {year}</div>
+            <Row>
+                <Col className="d-none d-lg-block" >
+                    <Row>
+                        {dayNames.map((name, key) => <Col key={key}>
+                            <div className='text-uppercase font-weight-bold'>{name}</div>
+                        </Col>)
                         }
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        Object.entries(weeks).map(([key, week]) => {
-                            return (
-                                <tr key={`week-${key}`}> {
-                                    week.map((day) =>
-                                        <td>
-                                            <Nahual {...day} />
-                                        </td>
-                                    )}
-                                </tr>
-                            )
-                        })
-                    }
-                </tbody>
-            </Table>
-        </>
+                    </Row>
+                </Col>
+            </Row>
+            {
+                Object.entries(weeks).map(([key, week]) => {
+                    return (
+                        <Row key={`week-${key}`}> {
+                            week.map((day) =>
+                                <Col sm={12} lg={true} >
+                                    <Nahual {...day} />
+                                </Col>
+                            )}
+                        </Row>
+                    )
+                })
+            }
+        </Container>
     )
 }
 

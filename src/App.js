@@ -8,13 +8,11 @@ function App() {
   const date = new Date();
 
   return (
-    <ThemeProvider
-      breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
-    >
-      <Container className='p-3'>
+    <ThemeProvider breakpoints={['lg', 'md', 'sm', 'xs']} minBreakpoint="xs" >
+      <Container>
         <Calendar date={date} />
       </Container>
-    </ThemeProvider>
+    </ThemeProvider >
   );
 }
 

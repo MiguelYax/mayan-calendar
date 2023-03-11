@@ -36,8 +36,8 @@ export const dayIcons = (props = {}) => {
 
 export const nahualIcons = (props = {}) => {
   const size = {
-    width: '5em',
-    height: '5em',
+    width: '4em',
+    height: '4em',
     ...props
   }
 

@@ -12,9 +12,7 @@ function Nahual({ day, nahual, nahualDay, isToday }) {
     }
 
     return (
-        <Card
-
-        >
+        <Card>
             <Card.Header>{day}</Card.Header>
             <Card.Body>
                 <Card.Title>
