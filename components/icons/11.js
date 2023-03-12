@@ -8,8 +8,8 @@ const Svg11 = (props) => (
     height="1em"
     {...props}
   >
-    <circle r={15} cx={100} cy={77} />
-    <path d="M25 108h150v30H25zm0 47h150v30H25z" />
+    <circle fill="currentColor" r={15} cx={100} cy={77} />
+    <path fill="currentColor" d="M25 108h150v30H25zm0 47h150v30H25z" />
   </svg>
 );
 

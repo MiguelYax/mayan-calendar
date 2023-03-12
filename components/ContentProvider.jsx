@@ -14,7 +14,7 @@ export function ContentContextProvider({ children, contentData }) {
 ContentContextProvider.propTypes = {
   children: PropTypes.node.isRequired,
   contentData: PropTypes.shape({
-    dayNames: PropTypes.arrayOf('String').isRequired,
+    dayNames: PropTypes.arrayOf(String).isRequired,
   }).isRequired,
 };
 

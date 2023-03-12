@@ -8,7 +8,7 @@ const Svg1 = (props) => (
     height="1em"
     {...props}
   >
-    <circle r={15} cx={100} cy={170} />
+    <circle fill="currentColor" r={15} cx={100} cy={170} />
   </svg>
 );
 

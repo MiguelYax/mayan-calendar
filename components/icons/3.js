@@ -8,9 +8,9 @@ const Svg3 = (props) => (
     height="1em"
     {...props}
   >
-    <circle r={15} cx={50} cy={170} />
-    <circle r={15} cx={100} cy={170} />
-    <circle r={15} cx={150} cy={170} />
+    <circle fill="currentColor" r={15} cx={50} cy={170} />
+    <circle fill="currentColor" r={15} cx={100} cy={170} />
+    <circle fill="currentColor" r={15} cx={150} cy={170} />
   </svg>
 );
 

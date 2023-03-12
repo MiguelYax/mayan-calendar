@@ -3,7 +3,7 @@ import Calendar from '../components/Calendar';
 import Layout from '../components/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+function Home() {
   const date = new Date();
 
   return (
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

@@ -8,7 +8,7 @@ const Svg5 = (props) => (
     height="1em"
     {...props}
   >
-    <path d="M25 155h150v30H25z" />
+    <path fill="currentColor" d="M25 155h150v30H25z" />
   </svg>
 );
 

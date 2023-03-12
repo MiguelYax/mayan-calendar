@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
+import classNames from 'classnames';
 import { dayIcons, nahualIcons } from './Days';
 import { useContentContext } from './ContentProvider';
 
@@ -16,18 +17,22 @@ function Nahual({
 }) {
   if (!day) { return null; }
 
-  const { dayNames } = useContentContext();
-
+  const { darkMode } = useContentContext();
+  const className = classNames('mb-2', {
+    'bg-dark': darkMode,
+    'text-light': darkMode,
+    'border-info': isToday,
+    'border-light': !isToday && darkMode,
+  });
   return (
-    <Card border={isToday && 'info'}>
+    <Card className={className} key={`card-${day}`}>
       <Card.Header>
         <span>{day}</span>
-        <span className="d-lg-none">{` - ${dayNames[weekDay]}`}</span>
+        <span className="d-lg-none">{` - ${weekDay}`}</span>
       </Card.Header>
       <Card.Body>
-        <Card.Title />
-        <Card.Text>
-          <div className="lead">{nahual}</div>
+        <Card.Title>{nahual}</Card.Title>
+        <Card.Text className="text-center">
           {days[nahualDay]}
           {nahual && nahuals[nahual.replace(/'/g, '')]}
         </Card.Text>
@@ -39,9 +44,9 @@ function Nahual({
 Nahual.propTypes = {
   day: PropTypes.number.isRequired,
   nahual: PropTypes.string.isRequired,
-  nahualDay: PropTypes.string.isRequired,
+  nahualDay: PropTypes.number.isRequired,
   isToday: PropTypes.bool.isRequired,
-  weekDay: PropTypes.number.isRequired,
+  weekDay: PropTypes.string.isRequired,
 };
 
 export default Nahual;
