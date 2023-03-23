@@ -18,8 +18,9 @@ module.exports = {
   ],
   ignorePatterns: [
     '/components/icons/*',
-    'test/*',
+    '/test/*',
+    '/out/*',
+    '/build/*',
+    '/.next/*',
   ],
-  rules: {
-  },
 };
