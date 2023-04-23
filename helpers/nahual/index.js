@@ -1,4 +1,5 @@
 const { nahual: nahualParser } = require('nahuales');
+const { uid } = require('uid');
 
 export const monthNames = [
   'January',
@@ -48,6 +49,11 @@ export const parseDate = (date) => {
   };
 };
 
+const buildWeek = () => ({
+  id: uid(),
+  days: Array.from({ length: 7 }, () => ({ id: uid() })),
+});
+
 export const getMonthCalendar = ({
   year, month, day, days,
 }) => {
@@ -56,7 +62,14 @@ export const getMonthCalendar = ({
     month,
     monthName: monthNames[month],
     days,
-    weeks: [[], [], [], [], []],
+    weeks: [
+      buildWeek(),
+      buildWeek(),
+      buildWeek(),
+      buildWeek(),
+      buildWeek(),
+      buildWeek(),
+    ],
   };
   let week = 0;
 
@@ -65,29 +78,16 @@ export const getMonthCalendar = ({
     const weekDay = date.getDay();
     const nahual = nahualParser(date);
 
-    if (i === 1 && weekDay > 1) {
-      for (let j = 0; j < weekDay; j += 1) {
-        calendar.weeks[week].push({});
-      }
-    }
-
-    calendar.weeks[week].push({
+    calendar.weeks[week].days[weekDay] = {
+      id: uid(),
       weekDay,
       day: i,
       nahual: nahual.nahual,
       nahualDay: nahual.day,
       isToday: i === day,
-    });
-
+    };
     if (weekDay === 6) {
       week += 1;
-    }
-
-    if (i === days && week < calendar.weeks.length) {
-      const currentLength = calendar.weeks[week].length;
-      for (let j = 0; j < (7 - currentLength); j += 1) {
-        calendar.weeks[week].push({});
-      }
     }
   }
 

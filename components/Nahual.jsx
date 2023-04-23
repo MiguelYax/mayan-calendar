@@ -27,8 +27,8 @@ function Nahual({
   return (
     <Card className={className} key={`card-${day}`}>
       <Card.Header>
-        <span>{day}</span>
-        <span className="d-lg-none">{` - ${weekDay}`}</span>
+        <span className="font-weight-bold">{day}</span>
+        <span className="d-lg-none text-uppercase">{` - ${weekDay}`}</span>
       </Card.Header>
       <Card.Body>
         <Card.Title>{nahual}</Card.Title>
