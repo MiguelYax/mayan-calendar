@@ -25,38 +25,19 @@ export const dayNames = [
   'Saturday',
 ];
 
-export const shortDayNames = [
-  'Sun',
-  'Mon',
-  'Tue',
-  'Wed',
-  'Thu',
-  'Fri',
-  'Sat',
-];
-
-export const parseDate = (date) => {
-  const year = date.getFullYear();
-  const month = date.getMonth();
-  const day = date.getDate();
-  const days = new Date(year, month + 1, 0).getDate();
-
-  return {
-    year,
-    month,
-    day,
-    days,
-  };
-};
-
 const buildWeek = () => ({
   id: uid(),
   days: Array.from({ length: 7 }, () => ({ id: uid() })),
 });
 
-export const getMonthCalendar = ({
-  year, month, day, days,
-}) => {
+export const getMonthCalendar = (year, month) => {
+  const currentDate = new Date();
+
+  const currentDay = currentDate.getDate();
+  const currentYear = currentDate.getFullYear();
+  const date = new Date(year, month + 1, 0);
+  const days = date.getDate();
+
   const calendar = {
     year,
     month,
@@ -74,9 +55,9 @@ export const getMonthCalendar = ({
   let week = 0;
 
   for (let i = 1; i <= days; i += 1) {
-    const date = new Date(year, month, i);
-    const weekDay = date.getDay();
-    const nahual = nahualParser(date);
+    const dayDate = new Date(year, month, i);
+    const weekDay = dayDate.getDay();
+    const nahual = nahualParser(dayDate);
 
     calendar.weeks[week].days[weekDay] = {
       id: uid(),
@@ -84,7 +65,7 @@ export const getMonthCalendar = ({
       day: i,
       nahual: nahual.nahual,
       nahualDay: nahual.day,
-      isToday: i === day,
+      isToday: i === currentDay && year === currentYear,
     };
     if (weekDay === 6) {
       week += 1;
