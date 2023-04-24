@@ -1,16 +1,19 @@
 import React, { useMemo, useState } from 'react';
 import {
-  Container, Row, Col, Button,
+  Container, Row, Col, Button, Modal, Dropdown, DropdownButton, ButtonGroup,
 } from 'react-bootstrap';
 import classNames from 'classnames';
-import { getMonthCalendar } from '../helpers/nahual';
+import { getMonthCalendar, monthNames } from '../helpers/nahual';
 import Nahual from './Nahual';
 import { useContentContext } from './ContentProvider';
+import Copyright from './Copyright';
 
 function Calendar() {
   const currentDate = new Date();
-  const [year, setYear] = useState(currentDate.getFullYear());
+  const currentYear = currentDate.getFullYear();
+  const [year, setYear] = useState(currentYear);
   const [month, setMonth] = useState(currentDate.getMonth());
+  const [show, setShow] = useState(false);
 
   const {
     monthName,
@@ -27,6 +30,8 @@ function Calendar() {
     }
   };
 
+  const handleShow = () => setShow(true);
+
   const handlePreviousMonth = () => {
     const previos = month - 1;
     if (previos === -1) {
@@ -36,6 +41,8 @@ function Calendar() {
       setMonth(previos);
     }
   };
+
+  const handleClose = () => setShow(false);
 
   const { dayNames, darkMode } = useContentContext();
 
@@ -52,7 +59,7 @@ function Calendar() {
             <Button onClick={handlePreviousMonth}>{'<'}</Button>
           </Col>
           <Col className="d-grid p-0">
-            <Button>
+            <Button onClick={handleShow}>
               {`${monthName} - ${year}`}
             </Button>
           </Col>
@@ -101,6 +108,61 @@ function Calendar() {
           ))
         }
       </Container>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title> Calendar </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Row>
+            <Col className="d-grid ">
+              <DropdownButton
+                as={ButtonGroup}
+                onSelect={(value) => {
+                  setMonth(value);
+                }}
+                title={monthNames[month]}
+              >
+                {
+                  monthNames.map((name, i) => (
+                    <Dropdown.Item eventKey={i}>
+                      {name}
+                    </Dropdown.Item>
+                  ))
+                }
+              </DropdownButton>
+            </Col>
+            <Col className="d-grid ">
+              <DropdownButton
+                as={ButtonGroup}
+                onSelect={(value) => { setYear(value); }}
+                title={year}
+              >
+                {
+                  Array.from({ length: 60 }, (v, i) => {
+                    const value = currentYear - i;
+                    return (
+                      <Dropdown.Item
+                        eventKey={value}
+                        active={(value === year)}
+                      >
+                        {value}
+                      </Dropdown.Item>
+                    );
+                  })
+
+                }
+              </DropdownButton>
+            </Col>
+          </Row>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Copyright currentYear={currentYear} />
     </Container>
   );
 }
